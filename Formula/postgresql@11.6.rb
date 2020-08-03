@@ -6,14 +6,6 @@ class PostgresqlAT116 < Formula
   sha256 "49924f7ff92965fdb20c86e0696f2dc9f8553e1563124ead7beedf8910c13170"
   revision 3
 
-  # bottle do
-  #   sha256 "420e0588a9c7d13bd60dbd14cd825e3ab94e8190aceae83a326469c2069eccff" => :catalina
-  #   sha256 "0f53a997e555a3dd79d58494b0b5d5e11d0d01bb20db2084d544cc750125ab2b" => :mojave
-  #   sha256 "2e37db63328194a9445083afbbd2e6ef22535bd6b15ba4514ee231b75e5a74f0" => :high_sierra
-  # end
-
-  # keg_only :versioned_formula
-
   depends_on "pkg-config" => :build
   depends_on "icu4c"
   depends_on "openssl@1.1"
