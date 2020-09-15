@@ -1,9 +1,9 @@
-class PostgresqlAT116 < Formula
+class PostgresqlAT124 < Formula
   desc "Object-relational database system"
   homepage "https://github.com/bruschill/homebrew-postgresql-credly"
-  version "11.6"
-  url "https://ftp.postgresql.org/pub/source/v11.6/postgresql-11.6.tar.bz2"
-  sha256 "49924f7ff92965fdb20c86e0696f2dc9f8553e1563124ead7beedf8910c13170"
+  version "12.4"
+  url "https://ftp.postgresql.org/pub/source/v12.4/postgresql-12.4.tar.bz2"
+  sha256 "bee93fbe2c32f59419cb162bcc0145c58da9a8644ee154a30b9a5ce47de606cc"
   revision 3
 
   depends_on "pkg-config" => :build
